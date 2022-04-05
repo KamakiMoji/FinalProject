@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1819F11727F2027D00D1232C /* alone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1819F11627F2027D00D1232C /* alone.swift */; };
+		1819F11927F2145400D1232C /* friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1819F11827F2145400D1232C /* friends.swift */; };
+		18CC50A727FC7B610032313B /* gon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC50A627FC7B610032313B /* gon.swift */; };
+		18CC50A927FC7BEB0032313B /* josuke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC50A827FC7BEB0032313B /* josuke.swift */; };
+		18CC50AB27FC7C190032313B /* luffy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC50AA27FC7C190032313B /* luffy.swift */; };
+		18CC50AD27FC7C830032313B /* kuma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC50AC27FC7C830032313B /* kuma.swift */; };
+		18CC50AF27FC7D220032313B /* goku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC50AE27FC7D220032313B /* goku.swift */; };
+		18CC50B127FC7D7F0032313B /* koroku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC50B027FC7D7F0032313B /* koroku.swift */; };
+		18CC50B327FC7DA50032313B /* naruto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC50B227FC7DA50032313B /* naruto.swift */; };
+		18CC50B527FC7DD20032313B /* benimaru.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC50B427FC7DD20032313B /* benimaru.swift */; };
+		18CC50B727FC7DFA0032313B /* natsu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC50B627FC7DFA0032313B /* natsu.swift */; };
+		18D41B7127F6327600BA1A8F /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D41B7027F6327500BA1A8F /* SwiftUIView.swift */; };
+		18E136E327F8865300183BCC /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E136E227F8865300183BCC /* Question.swift */; };
+		18E2373527EF53FF00613BBD /* OtakuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2373427EF53FF00613BBD /* OtakuApp.swift */; };
+		18E2373727EF53FF00613BBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2373627EF53FF00613BBD /* ContentView.swift */; };
+		18E2373927EF540200613BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E2373827EF540200613BBD /* Assets.xcassets */; };
+		18E2373C27EF540200613BBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E2373B27EF540200613BBD /* Preview Assets.xcassets */; };
+		18E2374627EF540300613BBD /* OtakuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2374527EF540300613BBD /* OtakuTests.swift */; };
+		18E2375027EF540300613BBD /* OtakuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2374F27EF540300613BBD /* OtakuUITests.swift */; };
+		18E2375227EF540300613BBD /* OtakuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2375127EF540300613BBD /* OtakuUITestsLaunchTests.swift */; };
+		18E2375F27F06C8C00613BBD /* Dela_Gothic_One.zip in Resources */ = {isa = PBXBuildFile; fileRef = 18E2375E27F06C8C00613BBD /* Dela_Gothic_One.zip */; };
+		18E2376427F0EA5E00613BBD /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18E2376327F0EA5E00613BBD /* Lobster-Regular.ttf */; };
+		18E2376727F0F30E00613BBD /* 2nd navigation page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2376627F0F30E00613BBD /* 2nd navigation page.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E2374227EF540300613BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E2372927EF53FE00613BBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E2373027EF53FF00613BBD;
+			remoteInfo = Otaku;
+		};
+		18E2374C27EF540300613BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E2372927EF53FE00613BBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E2373027EF53FF00613BBD;
+			remoteInfo = Otaku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1819F11627F2027D00D1232C /* alone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alone.swift; sourceTree = "<group>"; };
+		1819F11827F2145400D1232C /* friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friends.swift; sourceTree = "<group>"; };
+		18CC50A627FC7B610032313B /* gon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gon.swift; sourceTree = "<group>"; };
+		18CC50A827FC7BEB0032313B /* josuke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = josuke.swift; sourceTree = "<group>"; };
+		18CC50AA27FC7C190032313B /* luffy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = luffy.swift; sourceTree = "<group>"; };
+		18CC50AC27FC7C830032313B /* kuma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kuma.swift; sourceTree = "<group>"; };
+		18CC50AE27FC7D220032313B /* goku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goku.swift; sourceTree = "<group>"; };
+		18CC50B027FC7D7F0032313B /* koroku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = koroku.swift; sourceTree = "<group>"; };
+		18CC50B227FC7DA50032313B /* naruto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naruto.swift; sourceTree = "<group>"; };
+		18CC50B427FC7DD20032313B /* benimaru.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = benimaru.swift; sourceTree = "<group>"; };
+		18CC50B627FC7DFA0032313B /* natsu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = natsu.swift; sourceTree = "<group>"; };
+		18D41B7027F6327500BA1A8F /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		18E136E227F8865300183BCC /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		18E2373127EF53FF00613BBD /* Otaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E2373427EF53FF00613BBD /* OtakuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtakuApp.swift; sourceTree = "<group>"; };
+		18E2373627EF53FF00613BBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18E2373827EF540200613BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E2373B27EF540200613BBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18E2374127EF540300613BBD /* OtakuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtakuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E2374527EF540300613BBD /* OtakuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtakuTests.swift; sourceTree = "<group>"; };
+		18E2374B27EF540300613BBD /* OtakuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtakuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E2374F27EF540300613BBD /* OtakuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtakuUITests.swift; sourceTree = "<group>"; };
+		18E2375127EF540300613BBD /* OtakuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtakuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18E2375E27F06C8C00613BBD /* Dela_Gothic_One.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = Dela_Gothic_One.zip; path = ../../../../../../../Desktop/Dela_Gothic_One.zip; sourceTree = "<group>"; };
+		18E2376327F0EA5E00613BBD /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		18E2376527F0EAFD00613BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		18E2376627F0F30E00613BBD /* 2nd navigation page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2nd navigation page.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E2372E27EF53FF00613BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E2373E27EF540300613BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E2374827EF540300613BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E2372827EF53FE00613BBD = {
+			isa = PBXGroup;
+			children = (
+				18E2373327EF53FF00613BBD /* Otaku */,
+				18E2374427EF540300613BBD /* OtakuTests */,
+				18E2374E27EF540300613BBD /* OtakuUITests */,
+				18E2373227EF53FF00613BBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E2373227EF53FF00613BBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E2373127EF53FF00613BBD /* Otaku.app */,
+				18E2374127EF540300613BBD /* OtakuTests.xctest */,
+				18E2374B27EF540300613BBD /* OtakuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E2373327EF53FF00613BBD /* Otaku */ = {
+			isa = PBXGroup;
+			children = (
+				18E2376527F0EAFD00613BBD /* Info.plist */,
+				18E2376027F0EA0D00613BBD /* fonts */,
+				18E2373427EF53FF00613BBD /* OtakuApp.swift */,
+				18E2373627EF53FF00613BBD /* ContentView.swift */,
+				18E2376627F0F30E00613BBD /* 2nd navigation page.swift */,
+				1819F11627F2027D00D1232C /* alone.swift */,
+				1819F11827F2145400D1232C /* friends.swift */,
+				18E2373827EF540200613BBD /* Assets.xcassets */,
+				18E2373A27EF540200613BBD /* Preview Content */,
+			);
+			path = Otaku;
+			sourceTree = "<group>";
+		};
+		18E2373A27EF540200613BBD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18E2373B27EF540200613BBD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18E2374427EF540300613BBD /* OtakuTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E2374527EF540300613BBD /* OtakuTests.swift */,
+			);
+			path = OtakuTests;
+			sourceTree = "<group>";
+		};
+		18E2374E27EF540300613BBD /* OtakuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E2374F27EF540300613BBD /* OtakuUITests.swift */,
+				18E2375127EF540300613BBD /* OtakuUITestsLaunchTests.swift */,
+				18E2375E27F06C8C00613BBD /* Dela_Gothic_One.zip */,
+			);
+			path = OtakuUITests;
+			sourceTree = "<group>";
+		};
+		18E2376027F0EA0D00613BBD /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				18E2376327F0EA5E00613BBD /* Lobster-Regular.ttf */,
+				18D41B7027F6327500BA1A8F /* SwiftUIView.swift */,
+				18CC50AE27FC7D220032313B /* goku.swift */,
+				18CC50B227FC7DA50032313B /* naruto.swift */,
+				18CC50B427FC7DD20032313B /* benimaru.swift */,
+				18CC50B027FC7D7F0032313B /* koroku.swift */,
+				18E136E227F8865300183BCC /* Question.swift */,
+				18CC50B627FC7DFA0032313B /* natsu.swift */,
+				18CC50A627FC7B610032313B /* gon.swift */,
+				18CC50A827FC7BEB0032313B /* josuke.swift */,
+				18CC50AA27FC7C190032313B /* luffy.swift */,
+				18CC50AC27FC7C830032313B /* kuma.swift */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E2373027EF53FF00613BBD /* Otaku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E2375527EF540300613BBD /* Build configuration list for PBXNativeTarget "Otaku" */;
+			buildPhases = (
+				18E2372D27EF53FF00613BBD /* Sources */,
+				18E2372E27EF53FF00613BBD /* Frameworks */,
+				18E2372F27EF53FF00613BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Otaku;
+			productName = Otaku;
+			productReference = 18E2373127EF53FF00613BBD /* Otaku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E2374027EF540300613BBD /* OtakuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E2375827EF540300613BBD /* Build configuration list for PBXNativeTarget "OtakuTests" */;
+			buildPhases = (
+				18E2373D27EF540300613BBD /* Sources */,
+				18E2373E27EF540300613BBD /* Frameworks */,
+				18E2373F27EF540300613BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E2374327EF540300613BBD /* PBXTargetDependency */,
+			);
+			name = OtakuTests;
+			productName = OtakuTests;
+			productReference = 18E2374127EF540300613BBD /* OtakuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E2374A27EF540300613BBD /* OtakuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E2375B27EF540300613BBD /* Build configuration list for PBXNativeTarget "OtakuUITests" */;
+			buildPhases = (
+				18E2374727EF540300613BBD /* Sources */,
+				18E2374827EF540300613BBD /* Frameworks */,
+				18E2374927EF540300613BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E2374D27EF540300613BBD /* PBXTargetDependency */,
+			);
+			name = OtakuUITests;
+			productName = OtakuUITests;
+			productReference = 18E2374B27EF540300613BBD /* OtakuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E2372927EF53FE00613BBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					18E2373027EF53FF00613BBD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					18E2374027EF540300613BBD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 18E2373027EF53FF00613BBD;
+					};
+					18E2374A27EF540300613BBD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 18E2373027EF53FF00613BBD;
+					};
+				};
+			};
+			buildConfigurationList = 18E2372C27EF53FE00613BBD /* Build configuration list for PBXProject "Otaku" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E2372827EF53FE00613BBD;
+			productRefGroup = 18E2373227EF53FF00613BBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E2373027EF53FF00613BBD /* Otaku */,
+				18E2374027EF540300613BBD /* OtakuTests */,
+				18E2374A27EF540300613BBD /* OtakuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E2372F27EF53FF00613BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E2373C27EF540200613BBD /* Preview Assets.xcassets in Resources */,
+				18E2376427F0EA5E00613BBD /* Lobster-Regular.ttf in Resources */,
+				18E2373927EF540200613BBD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E2373F27EF540300613BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E2374927EF540300613BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E2375F27F06C8C00613BBD /* Dela_Gothic_One.zip in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E2372D27EF53FF00613BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CC50B327FC7DA50032313B /* naruto.swift in Sources */,
+				18CC50B727FC7DFA0032313B /* natsu.swift in Sources */,
+				18E2373727EF53FF00613BBD /* ContentView.swift in Sources */,
+				18CC50B127FC7D7F0032313B /* koroku.swift in Sources */,
+				1819F11727F2027D00D1232C /* alone.swift in Sources */,
+				18D41B7127F6327600BA1A8F /* SwiftUIView.swift in Sources */,
+				18CC50AF27FC7D220032313B /* goku.swift in Sources */,
+				18CC50A727FC7B610032313B /* gon.swift in Sources */,
+				18CC50B527FC7DD20032313B /* benimaru.swift in Sources */,
+				18E2373527EF53FF00613BBD /* OtakuApp.swift in Sources */,
+				18CC50AD27FC7C830032313B /* kuma.swift in Sources */,
+				18E2376727F0F30E00613BBD /* 2nd navigation page.swift in Sources */,
+				18CC50AB27FC7C190032313B /* luffy.swift in Sources */,
+				18CC50A927FC7BEB0032313B /* josuke.swift in Sources */,
+				18E136E327F8865300183BCC /* Question.swift in Sources */,
+				1819F11927F2145400D1232C /* friends.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E2373D27EF540300613BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E2374627EF540300613BBD /* OtakuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E2374727EF540300613BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E2375027EF540300613BBD /* OtakuUITests.swift in Sources */,
+				18E2375227EF540300613BBD /* OtakuUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E2374327EF540300613BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E2373027EF53FF00613BBD /* Otaku */;
+			targetProxy = 18E2374227EF540300613BBD /* PBXContainerItemProxy */;
+		};
+		18E2374D27EF540300613BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E2373027EF53FF00613BBD /* Otaku */;
+			targetProxy = 18E2374C27EF540300613BBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18E2375327EF540300613BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E2375427EF540300613BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E2375627EF540300613BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Otaku/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Otaku/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MFB.Otaku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E2375727EF540300613BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Otaku/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Otaku/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MFB.Otaku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18E2375927EF540300613BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MFB.OtakuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Otaku.app/Otaku";
+			};
+			name = Debug;
+		};
+		18E2375A27EF540300613BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MFB.OtakuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Otaku.app/Otaku";
+			};
+			name = Release;
+		};
+		18E2375C27EF540300613BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MFB.OtakuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Otaku;
+			};
+			name = Debug;
+		};
+		18E2375D27EF540300613BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MFB.OtakuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Otaku;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E2372C27EF53FE00613BBD /* Build configuration list for PBXProject "Otaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E2375327EF540300613BBD /* Debug */,
+				18E2375427EF540300613BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E2375527EF540300613BBD /* Build configuration list for PBXNativeTarget "Otaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E2375627EF540300613BBD /* Debug */,
+				18E2375727EF540300613BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E2375827EF540300613BBD /* Build configuration list for PBXNativeTarget "OtakuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E2375927EF540300613BBD /* Debug */,
+				18E2375A27EF540300613BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E2375B27EF540300613BBD /* Build configuration list for PBXNativeTarget "OtakuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E2375C27EF540300613BBD /* Debug */,
+				18E2375D27EF540300613BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E2372927EF53FE00613BBD /* Project object */;
+}
